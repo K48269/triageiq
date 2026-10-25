@@ -1,0 +1,12 @@
+{
+  "ollama_url": "http://localhost:11434",
+  "model": "qwen2.5:7b-instruct",
+  "log_command": ["agentia", "cicd", "run", "logs", "--run", "{run_id}"],
+  "slack_webhook": "",
+  "teams_webhook": "",
+  "db_path": "triageiq.db",
+  "shared_secret": "change-me",
+  "commands": {
+    "rollback": "agentia cicd run rollback --run {run_id}"
+  }
+}

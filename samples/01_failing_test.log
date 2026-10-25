@@ -1,0 +1,9 @@
+[10:02:11] INFO  Pipeline payments-api started (UAT)
+[10:02:14] INFO  Validating metadata... 214 components OK
+[10:02:40] INFO  Running Apex tests (312 tests)
+[10:03:55] WARN  Deprecated API version 52.0 in OrderHelper.cls
+[10:04:02] ERROR Test failure: OrderServiceTest.testApplyDiscount_expiredCoupon
+[10:04:02] ERROR   System.AssertException: Assertion Failed: Expected: 0.00, Actual: 15.00
+[10:04:02] ERROR   Class.OrderServiceTest.testApplyDiscount_expiredCoupon: line 48, column 1
+[10:04:09] ERROR Tests ran: 312, Failures: 1, Coverage: 84%
+[10:04:09] ERROR Quality gate "Apex Tests" FAILED - promotion blocked

@@ -1,0 +1,8 @@
+[14:20:03] INFO  Pipeline payments-api started (UAT)
+[14:20:05] INFO  Authenticating deploy user svc-deploy@example.com
+[14:20:09] INFO  Deploying 38 components to UAT
+[14:20:31] WARN  Field Invoice__c.Notes__c has no description
+[14:20:44] ERROR Deployment failed: Invoice__c.Approve (Custom Button)
+[14:20:44] ERROR   INSUFFICIENT_ACCESS_OR_READONLY: insufficient access rights on object id
+[14:20:44] ERROR   User svc-deploy lacks permission set "Deploy_Metadata_Admin" required for Invoice__c
+[14:20:45] ERROR Deployment status: Failed (1 component error)
